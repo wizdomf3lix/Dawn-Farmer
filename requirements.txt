@@ -1,0 +1,28 @@
+# ================================================================
+# WINSNIP Dawn Farmer - Requirements
+# Compatible with Windows, Linux, and macOS
+# ================================================================
+
+# Core Dependencies (Required)
+curl-cffi>=0.5.0
+
+# Display Enhancement (Optional but Recommended)
+colorama>=0.4.6
+
+# ================================================================
+# Installation Instructions:
+# ================================================================
+# Windows:
+#   pip install -r requirements.txt
+#
+# Linux/Mac:
+#   pip3 install -r requirements.txt
+#
+# Minimal Installation (without colors):
+#   pip install curl-cffi
+# ================================================================
+
+openpyxl~=3.1.5
+imap-tools~=1.10.0
+python-socks~=2.7.1
+requests~=2.32.3

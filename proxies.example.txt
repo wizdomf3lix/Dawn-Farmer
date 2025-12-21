@@ -1,0 +1,18 @@
+# Proxy Examples
+# Format: protocol://username:password@ip:port
+# Or: protocol://ip:port
+
+# HTTP Proxy with authentication
+http://user123:pass456@12.34.56.78:8080
+
+# HTTP Proxy without authentication
+http://12.34.56.78:8080
+
+# HTTPS Proxy
+https://12.34.56.78:443
+
+# SOCKS5 Proxy
+socks5://user:pass@12.34.56.78:1080
+
+# Add one proxy per line
+# Each token will use proxy in order (token1 -> proxy1, token2 -> proxy2, etc)
